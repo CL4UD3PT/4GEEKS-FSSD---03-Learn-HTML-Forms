@@ -1,0 +1,43 @@
+body {
+	background: #072657;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.login {
+	margin: 0 auto;
+	width: 300px;
+	justify-content: center;
+}
+
+.login h1 {
+	color: white;
+	text-align: center;
+}
+
+.login form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login form input {
+	background-color: #051a3d;
+	color: #68666a;
+	border: 1px solid black;
+	text-shadow: 1px 1px 2px black;
+}
+
+.login form button {
+	color: white;
+	background-color: #4874d7;
+	border-color: #678cdf;
+	box-shadow: 0 0 1px rgb(63, 63, 63);
+	font-weight: 600;
+	text-shadow: 1px 1px 5px black;
+}
+
+.login form input,
+.login form button {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
